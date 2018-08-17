@@ -5,13 +5,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { IphoneXComponent } from './iphoneX/iphoneX.component';
+import { MacComponent } from './mac/mac.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    IphoneXComponent
+    IphoneXComponent,
+    MacComponent
   ],
   imports: [
     BrowserModule

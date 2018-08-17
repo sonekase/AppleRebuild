@@ -8,6 +8,7 @@ import { IphoneXComponent } from './iphoneX/iphoneX.component';
 import { MacComponent } from './mac/mac.component';
 import { IpadComponent } from './ipad/ipad.component';
 import { RedcrossComponent } from './redcross/redcross.component';
+import { AppleWatchComponent } from './apple-watch/apple-watch.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { RedcrossComponent } from './redcross/redcross.component';
     IphoneXComponent,
     MacComponent,
     IpadComponent,
-    RedcrossComponent
+    RedcrossComponent,
+    AppleWatchComponent
   ],
   imports: [
     BrowserModule

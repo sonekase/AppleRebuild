@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { IphoneXComponent } from './iphoneX/iphoneX.component';
 import { MacComponent } from './mac/mac.component';
+import { IpadComponent } from './ipad/ipad.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MacComponent } from './mac/mac.component';
     AppComponent,
     NavbarComponent,
     IphoneXComponent,
-    MacComponent
+    MacComponent,
+    IpadComponent
   ],
   imports: [
     BrowserModule

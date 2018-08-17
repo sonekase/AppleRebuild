@@ -1,0 +1,176 @@
+element.style {
+}
+
+@media only screen and (max-width: 767px)
+#ac-globalnav .ac-gn-header {
+    display: block;
+}
+#ac-globalnav .ac-gn-header {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+}
+#ac-globalnav ul, #ac-gn-segmentbar ul {
+    list-style: none;
+}
+#ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+#ac-globalnav, #ac-globalnav:before, #ac-globalnav:after, #ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar, #ac-gn-segmentbar:before, #ac-gn-segmentbar:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+}
+nav ul, nav ol {
+    margin: 0;
+    list-style: none;
+}
+ul, ol {
+    margin-left: 1.17647em;
+}
+ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr, button {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+#ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+#ac-globalnav, #ac-globalnav:before, #ac-globalnav:after, #ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar, #ac-gn-segmentbar:before, #ac-gn-segmentbar:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+}
+#ac-globalnav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+#ac-globalnav, #ac-globalnav select, #ac-globalnav button, #ac-gn-segmentbar, #ac-gn-segmentbar select, #ac-gn-segmentbar button {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#ac-globalnav, #ac-globalnav input, #ac-globalnav textarea, #ac-globalnav select, #ac-globalnav button, #ac-gn-segmentbar, #ac-gn-segmentbar input, #ac-gn-segmentbar textarea, #ac-gn-segmentbar select, #ac-gn-segmentbar button {
+    font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    text-align: left;
+}
+#ac-globalnav, #ac-globalnav:before, #ac-globalnav:after, #ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar, #ac-gn-segmentbar:before, #ac-gn-segmentbar:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+}
+#ac-globalnav, #ac-gn-segmentbar {
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+body, input, textarea, select, button {
+    font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    text-align: left;
+}
+body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #fff;
+    color: #333;
+    font-style: normal;
+}
+<style>…</style>
+html {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 106.25%;
+    quotes: "“" "”";
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+#ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+#ac-globalnav, #ac-globalnav:before, #ac-globalnav:after, #ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar, #ac-gn-segmentbar:before, #ac-gn-segmentbar:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+}
+#ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+#ac-globalnav, #ac-globalnav:before, #ac-globalnav:after, #ac-globalnav *, #ac-globalnav *:before, #ac-globalnav *:after, #ac-gn-segmentbar, #ac-gn-segmentbar:before, #ac-gn-segmentbar:after, #ac-gn-segmentbar *, #ac-gn-segmentbar *:before, #ac-gn-segmentbar *:after {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+}

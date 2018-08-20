@@ -29,6 +29,10 @@ a {
   font-size: 1.5em;
 }
 
-.fa-shopping-cart {
+/* .fa-shopping-cart {
   font-size: 1.5em;
+} */
+
+#shop-bag {
+  margin-bottom: -17px;
 }

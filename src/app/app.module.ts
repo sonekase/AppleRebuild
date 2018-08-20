@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule }  from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
@@ -9,6 +11,8 @@ import { MacComponent } from './mac/mac.component';
 import { IpadComponent } from './ipad/ipad.component';
 import { RedcrossComponent } from './redcross/redcross.component';
 import { AppleWatchComponent } from './apple-watch/apple-watch.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { routing } from './app.routing';
 
 
 @NgModule({
@@ -19,10 +23,14 @@ import { AppleWatchComponent } from './apple-watch/apple-watch.component';
     MacComponent,
     IpadComponent,
     RedcrossComponent,
-    AppleWatchComponent
+    AppleWatchComponent,
+    WelcomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -112,6 +112,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 * Separate code into working components.
 
+## Specification: Week 2
+
+* Create dynamic routing and routes for project to connect all components.
+
+* Ready application for FirebBase deployment.
+
 ### License
 
 *This software is licensed under the MIT license.*

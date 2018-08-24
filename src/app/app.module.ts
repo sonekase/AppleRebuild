@@ -15,6 +15,7 @@ import { AppleWatchComponent } from './apple-watch/apple-watch.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { PromotionSectionComponent } from './promotion-section/promotion-section.component';
+import { PromoTwoComponent } from './promo-two/promo-two.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { PromotionSectionComponent } from './promotion-section/promotion-section
     RedcrossComponent,
     AppleWatchComponent,
     WelcomeComponent,
-    PromotionSectionComponent
+    PromotionSectionComponent,
+    PromoTwoComponent
   ],
   imports: [
     BrowserModule,

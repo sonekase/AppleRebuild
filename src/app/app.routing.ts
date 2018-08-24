@@ -5,6 +5,7 @@ import { MacComponent } from './mac/mac.component';
 import { IpadComponent } from './ipad/ipad.component';
 import { IphoneXComponent } from './iphoneX/iphoneX.component';
 import { PromotionSectionComponent } from './promotion-section/promotion-section.component';
+import { PromoTwoComponent } from './promo-two/promo-two.component';
 
 const appRoutes: Routes = [
   {
@@ -26,6 +27,10 @@ const appRoutes: Routes = [
   {
     path: 'promotion-section',
     component: PromotionSectionComponent
+  },
+  {
+    path: 'promo-two',
+    component: PromoTwoComponent
   },
 ];
 

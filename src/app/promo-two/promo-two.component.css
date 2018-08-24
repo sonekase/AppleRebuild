@@ -14,7 +14,7 @@ div {
 }
 
 article {
-  padding-top: 125%;
+  padding-top: 50%;
   display: inline-block;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -28,7 +28,7 @@ h1 {
 }
 
 .left-half {
-  background-image: url('../../assets/img/summer-promo.jpg');
+  background-image: url('../../assets/img/iphone8.jpg');
   width: 50%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -44,13 +44,16 @@ h1 {
 }
 
 .right-half {
-  background-image: url('../../assets/img/behind-mac.jpg');
+  background-image: url('../../assets/img/three-rings.jpg');
   width: 50%;
+  background-repeat: no-repeat;
   background-size: cover;
+  /* background-attachment: inherit; */
   position: absolute;
   right: 0px;
   width: 50%;
   border-width: thick;
   border-style: solid;
   border-color: #FFF;
+  color: #FFF;
 }

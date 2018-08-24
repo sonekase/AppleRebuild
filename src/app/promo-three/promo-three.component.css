@@ -1,0 +1,59 @@
+.container {
+  margin-top: 50%;
+  padding-top: 5%;
+  display: table;
+  width: 100%;
+}
+
+section {
+  text-align: center;
+}
+
+div {
+  height: 100%;
+}
+
+article {
+  padding-top: 50%;
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+h1 {
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.left-half {
+  background-image: url('../../assets/img/airpods.jpg');
+  width: 50%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: inherit; */
+  position: absolute;
+  left: 0px;
+  width: 50%;
+  border-width: thick;
+  border-style: solid;
+  border-color: #FFF;
+  color: black;
+}
+
+.right-half {
+  background-image: url('../../assets/img/watch3.jpg');
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: inherit; */
+  position: absolute;
+  right: 0px;
+  width: 50%;
+  border-width: thick;
+  border-style: solid;
+  border-color: #FFF;
+  color: #FFF;
+}

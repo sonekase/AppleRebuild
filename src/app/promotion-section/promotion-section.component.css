@@ -43,6 +43,15 @@ h1 {
   color: black;
 }
 
+#summer {
+  margin-bottom: 65%;
+}
+
+#summer a {
+  text-decoration: none;
+  color: black;
+}
+
 .right-half {
   background-image: url('../../assets/img/behind-mac.jpg');
   width: 50%;
@@ -53,4 +62,10 @@ h1 {
   border-width: thick;
   border-style: solid;
   border-color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  margin: 1%;
 }

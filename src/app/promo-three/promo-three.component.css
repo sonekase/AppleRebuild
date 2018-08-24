@@ -55,7 +55,12 @@ h1 {
   border-width: thick;
   border-style: solid;
   border-color: #FFF;
-  color: #FFF;
+  color: black;
+}
+
+img {
+  width: 35%;
+  margin-top: -15%;
 }
 
 a {

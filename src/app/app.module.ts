@@ -13,6 +13,7 @@ import { RedcrossComponent } from './redcross/redcross.component';
 import { AppleWatchComponent } from './apple-watch/apple-watch.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
+import { PromotionSectionComponent } from './promotion-section/promotion-section.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { routing } from './app.routing';
     IpadComponent,
     RedcrossComponent,
     AppleWatchComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    PromotionSectionComponent
   ],
   imports: [
     BrowserModule,

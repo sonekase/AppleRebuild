@@ -17,7 +17,16 @@ import { routing } from './app.routing';
 import { PromotionSectionComponent } from './promotion-section/promotion-section.component';
 import { PromoTwoComponent } from './promo-two/promo-two.component';
 import { PromoThreeComponent } from './promo-three/promo-three.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -37,7 +46,9 @@ import { PromoThreeComponent } from './promo-three/promo-three.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -28,6 +28,76 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Deploy application
+
+* Install AngularFire on your device: $ npm install angularfire2@4.0.0-rc.0 firebase@^3.6.6 --save
+
+* TypeScript Configuration: Add the following: "types": [ "firebase" ] beneath "lib" area on tsconfig.json
+
+* Create an api-keys.ts file in the same level as your project app files.
+
+* Import: import { masterFirebaseConfig } from './api-keys'; to app.module.ts
+
+* import { AngularFireModule } from 'angularfire2'; to app.module.ts
+
+* import { AngularFireDatabaseModule } from 'angularfire2/database'; to app.module.ts
+
+* Add export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+}; to the app.module.ts
+
+* Initialize Firebase in app.module.ts, add:   AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule to imports array.
+
+* Log-in or set-up account on https://firebase.google.com
+
+* Go to console and create a new project, click on + sign to Add project.
+
+* Choose real time databse and click on Authentication on left side of navbar.
+
+* Click on Web setup button next to the ? icon and copy and paste the needed content for your api-keys.ts.
+
+* Fill out required portion of api-keys from firebase.
+
+* Configuring for deployment: build production level of applicaiton by $ ng build --env=prod @ root level of directory.
+
+* Install Firebase npm by: $ npm install -g firebase-tools
+
+* Run login command: $ firebase login
+
+* Run init: $ firebase init
+
+* Select Database, Hosting, or Hosting depending on project.
+
+* Create database.rules.json @ top level of directory and enter: {
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+
+* Go to firebase.json file and add: {
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "dist"
+  }
+}
+
+* Find .firebaserc and verify that it contains the following code: {
+  "projects": {
+    "default": "your-project-name"
+  }
+}
+
+* Deploy Firebase: $ firebase deploy
+
+* Open Firebase: $ firebase open
+
 ## Further help
 
 * For any questions or support details, please email: anousonekaseumsouk@icloud.com
